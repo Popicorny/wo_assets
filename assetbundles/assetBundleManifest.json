@@ -1,0 +1,47 @@
+{
+    "mainManifestURL": "https://github.com/Popicorny/wo_assets/raw/master/assetbundles/assetBundleManifest.json",
+    "majorAssetBundleHeader": [
+        {
+            "majorURL": "https://github.com/Popicorny/wo_assets/raw/master/assetbundles/basicShapes",
+            "majorName": "basicShapes",
+            "majorDependencyHeader": [
+                {
+                    "majorDependency": "https://github.com/Popicorny/wo_assets/raw/master/assetbundles/basicShapes/dependencies/basicwhitematerial"
+                }
+            ],
+            "minorAssetBundleHeader": [
+                {
+                    "minorName": "cube"
+                },
+                {
+                    "minorName": "capsule"
+                },
+                {
+                    "minorName": "cylinder"
+                },
+                {
+                    "minorName": "quad"
+                },
+                {
+                    "minorName": "sphere"
+                },
+                {
+                    "minorName": "plane"
+                }
+            ]
+        },
+        {
+            "majorURL": "https://github.com/Popicorny/wo_assets/raw/master/assetbundles/testAssets",
+            "majorName": "testAssets",
+            "majorDependencyHeader": [],
+            "minorAssetBundleHeader": [
+                {
+                    "minorName": "advanced_gatehouse_1a3_full"
+                },
+                {
+                    "minorName": "testasset"
+                }
+            ]
+        }
+    ]
+}
