@@ -2,13 +2,14 @@
     "mainManifestURL": "https://github.com/Popicorny/wo_assets/raw/master/assetbundles/assetBundleManifest.json",
     "majorAssetBundleHeader": [
         {
-            "majorURL": "https://github.com/Popicorny/wo_assets/raw/master/assetbundles/basicShapes",
-            "majorName": "basicShapes",
-            "majorDependencyHeader": [
+            "dependencyUrl": "https://github.com/Popicorny/wo_assets/raw/master/assetbundles/basicShapes/dependencies",
+            "dependencyHeader": [
                 {
-                    "majorDependency": "https://github.com/Popicorny/wo_assets/raw/master/assetbundles/basicShapes/dependencies/basicwhitematerial"
+                    "dependencyName": "basicwhitematerial"
                 }
             ],
+            "majorURL": "https://github.com/Popicorny/wo_assets/raw/master/assetbundles/basicShapes",
+            "majorName": "basicShapes",
             "minorAssetBundleHeader": [
                 {
                     "minorName": "cube"
@@ -31,9 +32,10 @@
             ]
         },
         {
+            "dependencyUrl": null,
+            "dependencyHeader": [],
             "majorURL": "https://github.com/Popicorny/wo_assets/raw/master/assetbundles/testAssets",
             "majorName": "testAssets",
-            "majorDependencyHeader": [],
             "minorAssetBundleHeader": [
                 {
                     "minorName": "advanced_gatehouse_1a3_full"
